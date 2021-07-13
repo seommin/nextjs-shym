@@ -11,8 +11,7 @@ npm run dev
 ---
 
 1. Skills
-   > Next.js
-   > Bootstrap
+   > Next.js, Bootstrap
 
 ---
 
