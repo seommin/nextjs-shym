@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "DXSeNB";
+  src: url(fonts/DXSeNB.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url(fonts/NanumSquare.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NanumGothic";
+  src: url(fonts/NanumGothic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Godo";
+  src: url(fonts/Godo.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "godoMaum";
+  src: url(fonts/godoMaum.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "BMHANNA";
+  src: url(fonts/BMHANNA.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "BMHANNAAir";
+  src: url(fonts/BMHANNAAir.ttf) format("truetype");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: gray !important;
+}
+
+.shym-title {
+  font-family: DXSeNB !important;
+}
+
+.shym-title:hover {
+  color: black !important;
+}
+
+.font-nanumsquare {
+  font-family: NanumSquare;
+}
+
+.font-hannaair {
+  font-family: BMHANNAAir;
+}
+
+.font-godo {
+  font-family: Godo;
+}
+
+.font-godomaum {
+  font-family: godoMaum;
+}
+
+.font-size-s {
+  font-size: 0.8rem !important;
+}
+
+.font-size-m {
+  font-size: 1rem !important;
+}
+
+.font-size-l {
+  font-size: 1.2rem !important;
+}
+
+.nav-link,
+.nav-font,
+.dropdown-item {
+  font-family: NanumSquare;
+}
+
+.dropdown-menu {
+  min-width: 7rem !important;
+}
+
+footer {
+  font-family: NanumSquare;
+  font-size: 1rem !important;
+}
+
+.row > * {
+  padding-right: 1px !important;
+  padding-left: 1px !important;
+}
+
+.rooms > div > div > div {
+  min-height: 26vmin;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  margin: 3px;
+}
+
+.b-image > div {
+  display: block !important;
+}
+
+.bg-shym {
+  background-color: rgba(163, 204, 163);
+}
+
+.info {
+  font-family: godoMaum;
+  line-height: 2;
+}
+
+.top-30 {
+  top: 30% !important;
+}
+
+.top-40 {
+  top: 40% !important;
+}
+
+.bg-lightgray {
+  background-color: #f7f7f7;
+}
+
+.bg-leaf {
+  position: relative;
+  height: 40vmin;
+}
+
+.bg-leaf::after {
+  background-image: url("../public/images/bg-leaf.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.fs-7 {
+  font-size: 0.85rem !important;
+}
+
+.h-vmin {
+  height: 45vmin !important;
+}
+
+@media screen and (max-width: 1120px) {
+  .h-vmin {
+    height: 40vmin !important;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .h-vmin {
+    height: 35vmin !important;
+  }
+}
+
+@media screen and (max-width: 871px) {
+  .h-vmin {
+    height: 30vmin !important;
+  }
+}
