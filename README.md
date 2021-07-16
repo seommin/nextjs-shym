@@ -5,13 +5,17 @@
 ### 코드 실행해보기
 
 ```bash
+npm install
+
 npm run dev
 ```
 
 ---
 
 1. Skills
-   > Next.js, Bootstrap
+   - Next.js
+   - Bootstrap
+   - Firebase
 
 ---
 
