@@ -157,10 +157,10 @@ footer {
 }
 
 .h-vmin {
-  height: 45vmin !important;
+  height: 50vmin !important;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1240px) {
   .h-vmin {
     height: 40vmin !important;
   }
