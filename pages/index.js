@@ -12,7 +12,7 @@ import roomImg4 from "../public/images/rooms/room-4.jpg";
 
 import mainImg1 from "../public/images/main-1.jpg";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div
@@ -203,4 +203,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;

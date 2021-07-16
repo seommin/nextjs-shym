@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Header() {
+const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid py-3">
@@ -22,44 +22,37 @@ export default function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-            <li>
-              <Link href="#">
-                <a className="nav-link px-4 link-dark">쉼펜션야영장</a>
-              </Link>
-            </li>
             <li className="dropdown">
-              <Link href="#">
-                <a
-                  className="nav-link px-4 link-dark"
-                  id="dropdownMenu1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  객실안내
-                </a>
-              </Link>
+              <a
+                className="nav-link px-4 link-dark cursor-pointer"
+                id="dropdownMenu1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                객실안내
+              </a>
               <ul
                 className="dropdown-menu text-small text-center"
                 aria-labelledby="dropdownMenu1"
               >
                 <li>
-                  <Link href="#">
-                    <a className="dropdown-item">금원산</a>
+                  <Link href="/rooms/1">
+                    <a className="dropdown-item link-dark">금원산</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a className="dropdown-item">거망산</a>
+                  <Link href="/rooms/2">
+                    <a className="dropdown-item link-dark">거망산</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a className="dropdown-item">월봉산</a>
+                  <Link href="/rooms/3">
+                    <a className="dropdown-item link-dark">월봉산</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a className="dropdown-item">기백산</a>
+                  <Link href="/rooms/4">
+                    <a className="dropdown-item link-dark">기백산</a>
                   </Link>
                 </li>
               </ul>
@@ -91,4 +84,6 @@ export default function Header() {
       </div>
     </nav>
   );
-}
+};
+
+export default Header;
