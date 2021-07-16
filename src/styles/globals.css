@@ -139,7 +139,7 @@ footer {
 }
 
 .bg-leaf::after {
-  background-image: url("../public/images/bg-leaf.png");
+  background-image: url("../../public/images/bg-leaf.png");
   background-repeat: no-repeat;
   background-size: cover;
   content: "";

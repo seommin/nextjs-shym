@@ -1,16 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
-import slideImg1 from "../public/images/slide/slide-1.jpg";
-import slideImg2 from "../public/images/slide/slide-2.jpg";
-import slideImg4 from "../public/images/slide/slide-4.jpg";
-import slideImg5 from "../public/images/slide/slide-5.jpg";
+import slideImg1 from "../../public/images/slide/slide-1.jpg";
+import slideImg2 from "../../public/images/slide/slide-2.jpg";
+import slideImg4 from "../../public/images/slide/slide-4.jpg";
+import slideImg5 from "../../public/images/slide/slide-5.jpg";
 
-import roomImg1 from "../public/images/rooms/room-1.jpg";
-import roomImg2 from "../public/images/rooms/room-2.jpg";
-import roomImg3 from "../public/images/rooms/room-3.jpg";
-import roomImg4 from "../public/images/rooms/room-4.jpg";
+import roomImg1 from "../../public/images/rooms/room-1.jpg";
+import roomImg2 from "../../public/images/rooms/room-2.jpg";
+import roomImg3 from "../../public/images/rooms/room-3.jpg";
+import roomImg4 from "../../public/images/rooms/room-4.jpg";
 
-import mainImg1 from "../public/images/main-1.jpg";
+import mainImg1 from "../../public/images/main-1.jpg";
 
 const Home = () => {
   return (
