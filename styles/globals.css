@@ -152,6 +152,10 @@ footer {
   z-index: -1;
 }
 
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
 .fs-7 {
   font-size: 0.85rem !important;
 }
