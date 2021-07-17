@@ -91,7 +91,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container-fulid py-5 bg-lightgray font-nanumsquare">
+      <div className="container-fulid py-5 bg-lightgray font-square">
         <p className="text-center my-3 fs-2">객실안내</p>
         <div className="row rooms justify-content-center pb-5">
           <div className="col-md-6 col-lg-2 m-2">
@@ -153,7 +153,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container-fulid py-5 bg-white font-nanumsquare">
+      <div className="container-fulid py-5 bg-white font-square">
         <div className="row justify-content-center">
           <div className="col-3 mx-3 my-5 p-3 bg-shym rounded-3">
             <div className="d-flex align-items-center justify-content-between mb-3">
