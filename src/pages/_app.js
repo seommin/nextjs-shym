@@ -3,11 +3,11 @@ import ProTypes from "prop-types";
 import Head from "next/head";
 import Script from "next/script";
 
-import "../styles/globals.css";
+import "@src/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "@src/components/Header";
+import Footer from "@src/components/Footer";
 
 const App = ({ Component, pageProps }) => {
   const [isLoading, setLoading] = useState(true);
