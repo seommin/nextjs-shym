@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import ProTypes from "prop-types";
 import Head from "next/head";
-import Script from "next/script";
+import firebase from "firebase/app";
+
+import "firebase/analytics";
+import "firebase/auth";
+import "firebase/firestore";
 
 import "@src/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -16,6 +20,21 @@ const App = ({ Component, pageProps }) => {
     setLoading(false);
   }, []);
 
+  const firebaseConfig = {
+    apiKey: "AIzaSyBWqlzi4SBwNGj5ENOZLE41bwJLbXyYo60",
+    authDomain: "nextjs-shym.firebaseapp.com",
+    projectId: "nextjs-shym",
+    storageBucket: "nextjs-shym.appspot.com",
+    messagingSenderId: "538938487871",
+    appId: "1:538938487871:web:a0350c747beea6fe43748a",
+    measurementId: "G-4TFL24VFDN",
+  };
+
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  }
+
   return (
     <>
       <Head>
@@ -27,9 +46,9 @@ const App = ({ Component, pageProps }) => {
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-        ></link>
+        />
       </Head>
-      <Script
+      <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossOrigin="anonymous"
