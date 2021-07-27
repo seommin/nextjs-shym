@@ -58,17 +58,19 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <Link href="#">
-                <a className="nav-link px-4 link-dark">주변관광</a>
+              <Link href="https://www.geochang.go.kr/tour/Index.do">
+                <a className="nav-link px-4 link-dark" target="_blank">
+                  주변관광
+                </a>
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="/location">
                 <a className="nav-link px-4 link-dark">오시는길</a>
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="/notice">
                 <a className="nav-link px-4 link-dark">공지사항</a>
               </Link>
             </li>
