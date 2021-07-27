@@ -85,6 +85,7 @@ a:hover {
 .nav-font,
 .dropdown-item {
   font-family: NanumSquare;
+  font-size: 1.05rem !important;
 }
 
 .dropdown-menu {
@@ -93,7 +94,7 @@ a:hover {
 
 footer {
   font-family: NanumSquare;
-  font-size: 1rem !important;
+  font-size: 1.05rem !important;
 }
 
 .row > * {
