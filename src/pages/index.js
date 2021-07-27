@@ -101,7 +101,7 @@ const Home = () => {
               <p className="text-center mb-0 text-black-50">
                 기준 8명 / 최대 18명
               </p>
-              <Link href="#">
+              <Link href="/rooms/1">
                 <a className="text-center text-danger d-block pb-2">
                   상세보기 <i className="bi bi-chevron-right align-middle"></i>
                 </a>
@@ -115,7 +115,7 @@ const Home = () => {
               <p className="text-center mb-0 text-black-50">
                 기준 4명 / 최대 6명
               </p>
-              <Link href="#">
+              <Link href="/rooms/2">
                 <a className="text-center text-danger d-block pb-2">
                   상세보기 <i className="bi bi-chevron-right align-middle"></i>
                 </a>
@@ -129,7 +129,7 @@ const Home = () => {
               <p className="text-center mb-0 text-black-50">
                 기준 4명 / 최대 6명
               </p>
-              <Link href="#">
+              <Link href="/rooms/3">
                 <a className="text-center text-danger d-block pb-2">
                   상세보기 <i className="bi bi-chevron-right align-middle"></i>
                 </a>
@@ -143,7 +143,7 @@ const Home = () => {
               <p className="text-center mb-0 text-black-50">
                 기준 4명 / 최대 6명
               </p>
-              <Link href="#">
+              <Link href="/rooms/4">
                 <a className="text-center text-danger d-block pb-2">
                   상세보기 <i className="bi bi-chevron-right align-middle"></i>
                 </a>
@@ -174,8 +174,18 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3 mx-3 my-5 p-3 bg-secondary rounded-3">
+          <div className="col-3 mx-3 my-5 p-3 bg-secondary rounded-3 text-white">
             <span className="fs-4">예약문의</span>
+            <div className="text-center my-2">
+              <p className="font-size-s text-white-50">
+                해발 6-700고지에 위치하고 계곡을 단독으로 품고 있으며
+                <br /> 천고지 넘는 산의 등산로와 임도가 많아
+                <br /> 등산, 산악자전거를 즐기기에 안성맞춤입니다.
+              </p>
+              <h3 className="fw-bold">010.6877.0242</h3>
+              <p>XX 000-000000 김호지(쉼민박)</p>
+              <p>경상남도 거창군 북상면 계수나무길 487-4</p>
+            </div>
           </div>
         </div>
       </div>
