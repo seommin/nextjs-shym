@@ -3,11 +3,9 @@ import Link from "next/link";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
-      <div className="container-fluid py-3">
+      <div className="container-fluid py-2">
         <Link href="/">
-          <a className="shym-title position-absolute fs-1 ps-3 text-dark">
-            쉼펜션야영장
-          </a>
+          <a className="shym-title fs-1 ps-3 text-dark">쉼펜션야영장</a>
         </Link>
         <button
           className="navbar-toggler ms-auto"
