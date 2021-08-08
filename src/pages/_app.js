@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProTypes from "prop-types";
 import Head from "next/head";
-import Script from "next/script";
 
 import "@src/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -30,11 +29,10 @@ const App = ({ Component, pageProps }) => {
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
         />
       </Head>
-      <Script
-        type="text/javascript"
+      <script
         src={`//dapi.kakao.com/v2/maps/sdk.js?appkey=${kakaoKey}&libraries=services`}
       />
-      <Script
+      <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossOrigin="anonymous"
