@@ -24,7 +24,7 @@ const Room = () => {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `.jpg`}
                   width={800}
@@ -33,7 +33,7 @@ const Room = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `-1.jpg`}
                   width={800}
@@ -43,7 +43,7 @@ const Room = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `-2.jpg`}
                   width={800}
@@ -53,7 +53,7 @@ const Room = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `-3.jpg`}
                   width={800}
@@ -63,7 +63,7 @@ const Room = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `-4.jpg`}
                   width={800}
@@ -73,7 +73,7 @@ const Room = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `-5.jpg`}
                   width={800}
@@ -83,7 +83,7 @@ const Room = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <Image
                   src={`/images/rooms/room-` + room + `-6.jpg`}
                   width={800}

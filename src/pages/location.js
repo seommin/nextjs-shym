@@ -44,7 +44,8 @@ const Location = () => {
           className="border border-dark mb-5"
         ></div>
         <p className="font-square font-size-l">
-          <i class="bi bi-geo-alt-fill"></i> 경상남도 거창군 북상면 월성리 570
+          <i className="bi bi-geo-alt-fill"></i> 경상남도 거창군 북상면 월성리
+          570
         </p>
         <p className="font-square font-size-l">
           <button

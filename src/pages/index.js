@@ -155,7 +155,7 @@ const Home = () => {
 
       <div className="container-fulid py-5 bg-white font-square">
         <div className="row justify-content-center">
-          <div className="col-3 mx-3 my-5 p-3 bg-shym rounded-3">
+          <div className="col-sm-5 col-lg-4 mx-3 my-5 p-3 bg-shym rounded-3">
             <div className="d-flex align-items-center justify-content-between mb-3">
               <span className="fs-4">공지사항</span>
               <i className="bi bi-plus"></i>
@@ -174,7 +174,7 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3 mx-3 my-5 p-3 bg-secondary rounded-3 text-white">
+          <div className="col-sm-5 col-lg-4 mx-3 my-5 p-3 bg-secondary rounded-3 text-white">
             <span className="fs-4">예약문의</span>
             <div className="text-center my-2">
               <p className="font-size-s text-white-50">
